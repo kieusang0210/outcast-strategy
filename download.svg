@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1517.0198999999998 579.7" width="1517.0198999999998" height="579.7" style="--bg:#FFFFFF;--fg:#3B3B3B;--line:#3B3B3B;--accent:#005FB8;--muted:#3B3B3BCC;--surface:#F8F8F8;--border:#3B3B3B;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<polyline class="edge" data-from="Root" data-to="G1" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="387.03149999999994,93.80000000000001 387.0315,141.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G1" data-to="G1_RD" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="387.0315,195.60000000000002 387.0315,213.60000000000002 205.46999999999997,213.60000000000002 205.46999999999997,231.60000000000002" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G1" data-to="G1_Price" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="387.0315,195.60000000000002 387.0315,213.60000000000002 471.78499999999997,213.60000000000002 471.78499999999997,231.60000000000002" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G1" data-to="G1_Chan" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="387.0315,195.60000000000002 387.0315,213.60000000000002 659.1834999999999,213.60000000000002 659.1834999999999,231.60000000000002" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G1" data-to="G2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="387.0315,195.60000000000002 387.0315,213.60000000000002 898.0814999999999,213.60000000000002 898.0814999999999,231.60000000000002" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G2" data-to="G2_Drop" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="898.0814999999999,285.40000000000003 898.0814999999999,291.40000000000003 444.2281499999999,291.40000000000003 444.2281499999999,356.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G2" data-to="G2_Store" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="898.0814999999999,285.40000000000003 898.0814999999999,291.40000000000003 666.0831499999999,291.40000000000003 666.0831499999999,356.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G2" data-to="G2_Collab" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="898.0814999999999,285.40000000000003 898.0814999999999,291.40000000000003 917.5781499999998,291.40000000000003 917.5781499999998,356.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G2" data-to="G3" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="898.0814999999999,285.40000000000003 898.0814999999999,291.40000000000003 1179.8176499999997,291.40000000000003 1179.8176499999997,297.40000000000003" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G3" data-to="G3_Mat" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1179.8176499999997,351.20000000000005 1179.8176499999997,375.20000000000005 841.1638999999998,375.20000000000005 841.1638999999998,460.55" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G3" data-to="G3_Heri" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1179.8176499999997,351.20000000000005 1179.8176499999997,375.20000000000005 1073.3928999999998,375.20000000000005 1073.3928999999998,460.55" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G3" data-to="G3_Model" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1179.8176499999997,351.20000000000005 1179.8176499999997,375.20000000000005 1345.6358999999998,375.20000000000005 1345.6358999999998,399.20000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="node" data-id="Root" data-label="&lt;b&gt;BẢN ĐỒ QUY TRÌNH PHÁT TRIỂN BRAND&lt;/b&gt;
+Từ số 0 đến Luxury Streetwear" data-shape="rectangle">
+  <rect x="246.75549999999998" y="40" width="280.5519999999999" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="387.03149999999994" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="387.03149999999994" dy="-3.9000000000000012"><tspan font-weight="bold">BẢN ĐỒ QUY TRÌNH PHÁT TRIỂN BRAND</tspan></tspan><tspan x="387.03149999999994" dy="16.900000000000002">Từ số 0 đến Luxury Streetwear</tspan></text>
+</g>
+<g class="node" data-id="G1" data-label="&lt;b&gt;Giai đoạn 1: Khởi đầu 0 -&gt; 1&lt;/b&gt;
+Định vị Mid-High &amp; R&amp;D chất lượng" data-shape="rectangle">
+  <rect x="266.0215" y="141.8" width="242.01999999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="387.0315" y="168.70000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="387.0315" dy="-3.9000000000000012"><tspan font-weight="bold">Giai đoạn 1: Khởi đầu 0 -&gt; 1</tspan></tspan><tspan x="387.0315" dy="16.900000000000002">Định vị Mid-High &amp; R&amp;D chất lượng</tspan></text>
+</g>
+<g class="node" data-id="G1_RD" data-label="&lt;b&gt;R&amp;D Sản phẩm&lt;/b&gt;
+- Áo thun: Boxy Fit + Heavyweight Cotton &gt;250GSM
+- Quần Jeans: Baggy Jeans + Wash bụi bặm" data-shape="rectangle">
+  <rect x="40" y="231.60000000000002" width="330.93999999999994" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="205.46999999999997" y="266.95000000000005" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="205.46999999999997" dy="-12.350000000000001"><tspan font-weight="bold">R&amp;D Sản phẩm</tspan></tspan><tspan x="205.46999999999997" dy="16.900000000000002">- Áo thun: Boxy Fit + Heavyweight Cotton &gt;250GSM</tspan><tspan x="205.46999999999997" dy="16.900000000000002">- Quần Jeans: Baggy Jeans + Wash bụi bặm</tspan></text>
+</g>
+<g class="node" data-id="G1_Price" data-label="&lt;b&gt;Định giá Mid-High&lt;/b&gt;
+- Áo: 450k - 650k
+- Quần: 800k - 1.2tr" data-shape="rectangle">
+  <rect x="398.93999999999994" y="231.60000000000002" width="145.69" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="471.78499999999997" y="266.95000000000005" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="471.78499999999997" dy="-12.350000000000001"><tspan font-weight="bold">Định giá Mid-High</tspan></tspan><tspan x="471.78499999999997" dy="16.900000000000002">- Áo: 450k - 650k</tspan><tspan x="471.78499999999997" dy="16.900000000000002">- Quần: 800k - 1.2tr</tspan></text>
+</g>
+<g class="node" data-id="G1_Chan" data-label="&lt;b&gt;Kênh bán&lt;/b&gt;
+- Tập trung Online DTC
+- Lookbook nghệ thuật" data-shape="rectangle">
+  <rect x="572.6299999999999" y="231.60000000000002" width="173.10699999999997" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="659.1834999999999" y="266.95000000000005" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="659.1834999999999" dy="-12.350000000000001"><tspan font-weight="bold">Kênh bán</tspan></tspan><tspan x="659.1834999999999" dy="16.900000000000002">- Tập trung Online DTC</tspan><tspan x="659.1834999999999" dy="16.900000000000002">- Lookbook nghệ thuật</tspan></text>
+</g>
+<g class="node" data-id="G2" data-label="&lt;b&gt;Giai đoạn 2: Cộng đồng 1 -&gt; 10&lt;/b&gt;
+Sự khan hiếm &amp; Trải nghiệm văn hóa" data-shape="rectangle">
+  <rect x="773.7369999999999" y="231.60000000000002" width="248.689" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="898.0814999999999" y="258.5" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="898.0814999999999" dy="-3.9000000000000012"><tspan font-weight="bold">Giai đoạn 2: Cộng đồng 1 -&gt; 10</tspan></tspan><tspan x="898.0814999999999" dy="16.900000000000002">Sự khan hiếm &amp; Trải nghiệm văn hóa</tspan></text>
+</g>
+<g class="node" data-id="G2_Drop" data-label="&lt;b&gt;Mô hình Drop giới hạn&lt;/b&gt;
+- Tạo cảm giác FOMO
+- Không restock ồ ạt" data-shape="rectangle">
+  <rect x="358.4156499999999" y="356.3" width="171.62499999999997" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="444.2281499999999" y="391.65000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="444.2281499999999" dy="-12.350000000000001"><tspan font-weight="bold">Mô hình Drop giới hạn</tspan></tspan><tspan x="444.2281499999999" dy="16.900000000000002">- Tạo cảm giác FOMO</tspan><tspan x="444.2281499999999" dy="16.900000000000002">- Không restock ồ ạt</tspan></text>
+</g>
+<g class="node" data-id="G2_Store" data-label="&lt;b&gt;Concept Store nghệ thuật&lt;/b&gt;
+- Không gian check-in độc đáo
+- Điểm kết nối cộng đồng" data-shape="rectangle">
+  <rect x="558.0406499999999" y="356.3" width="216.08499999999998" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="666.0831499999999" y="391.65000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="666.0831499999999" dy="-12.350000000000001"><tspan font-weight="bold">Concept Store nghệ thuật</tspan></tspan><tspan x="666.0831499999999" dy="16.900000000000002">- Không gian check-in độc đáo</tspan><tspan x="666.0831499999999" dy="16.900000000000002">- Điểm kết nối cộng đồng</tspan></text>
+</g>
+<g class="node" data-id="G2_Collab" data-label="&lt;b&gt;Đóng dấu Văn hóa&lt;/b&gt;
+- Collab nghệ sĩ độc lập / Rapper" data-shape="rectangle">
+  <rect x="802.1256499999998" y="356.3" width="230.90499999999997" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="917.5781499999998" y="383.2" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="917.5781499999998" dy="-3.9000000000000012"><tspan font-weight="bold">Đóng dấu Văn hóa</tspan></tspan><tspan x="917.5781499999998" dy="16.900000000000002">- Collab nghệ sĩ độc lập / Rapper</tspan></text>
+</g>
+<g class="node" data-id="G3" data-label="&lt;b&gt;Giai đoạn 3: Đột phá lên Luxury&lt;/b&gt;
+Chất liệu cao cấp &amp; Di sản bản địa" data-shape="rectangle">
+  <rect x="1061.0306499999997" y="297.40000000000003" width="237.57399999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1179.8176499999997" y="324.3" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1179.8176499999997" dy="-3.9000000000000012"><tspan font-weight="bold">Giai đoạn 3: Đột phá lên Luxury</tspan></tspan><tspan x="1179.8176499999997" dy="16.900000000000002">Chất liệu cao cấp &amp; Di sản bản địa</tspan></text>
+</g>
+<g class="node" data-id="G3_Mat" data-label="&lt;b&gt;Nâng cấp vật liệu xa xỉ&lt;/b&gt;
+- Da thật, len dệt tay
+- Khóa Riri, nút đúc riêng" data-shape="rectangle">
+  <rect x="749.7938999999998" y="460.55" width="182.74" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="841.1638999999998" y="495.90000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="841.1638999999998" dy="-12.350000000000001"><tspan font-weight="bold">Nâng cấp vật liệu xa xỉ</tspan></tspan><tspan x="841.1638999999998" dy="16.900000000000002">- Da thật, len dệt tay</tspan><tspan x="841.1638999999998" dy="16.900000000000002">- Khóa Riri, nút đúc riêng</tspan></text>
+</g>
+<g class="node" data-id="G3_Heri" data-label="&lt;b&gt;Di sản bản địa Heritage&lt;/b&gt;
+- Nhuộm chàm tự nhiên, tơ tằm thô
+- Kết hợp kỹ nghệ thêu thủ công" data-shape="rectangle">
+  <rect x="960.5338999999998" y="460.55" width="225.71799999999996" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1073.3928999999998" y="495.90000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1073.3928999999998" dy="-12.350000000000001"><tspan font-weight="bold">Di sản bản địa Heritage</tspan></tspan><tspan x="1073.3928999999998" dy="16.900000000000002">- Nhuộm chàm tự nhiên, tơ tằm thô</tspan><tspan x="1073.3928999999998" dy="16.900000000000002">- Kết hợp kỹ nghệ thêu thủ công</tspan></text>
+</g>
+<g class="node" data-id="G3_Model" data-label="&lt;b&gt;Mô hình Hai mũi nhọn&lt;/b&gt;
+- Mainline: Atelier xa xỉ Made-to-order
+- Diffusion line: Phổ thông Everyday" data-shape="rectangle">
+  <rect x="1214.2518999999998" y="399.20000000000005" width="262.76800000000003" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1345.6358999999998" y="434.55000000000007" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1345.6358999999998" dy="-12.350000000000001"><tspan font-weight="bold">Mô hình Hai mũi nhọn</tspan></tspan><tspan x="1345.6358999999998" dy="16.900000000000002">- Mainline: Atelier xa xỉ Made-to-order</tspan><tspan x="1345.6358999999998" dy="16.900000000000002">- Diffusion line: Phổ thông Everyday</tspan></text>
+</g>
+</svg>
