@@ -4,7 +4,7 @@
   "description": "Hệ thống Quản lý Chiến lược & Tài chính cho OUTCAST.PRJ",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node build.js",
     "preview": "vite preview"
   },
   "devDependencies": {
